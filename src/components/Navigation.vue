@@ -245,20 +245,20 @@
       right: 25px;
       height: 25px;
       width: auto;
-    }
+    } 
     .mobile-nav {
       padding: 20px;
       width: 70%;
       max-width: 250px;
       display: flex;
-      flex-direction: column;
-      position: fixed;
+      flex-direction: column; 
+      position: fixed; 
       height: 100%;
       background-color: #303030;
-      top: 0;
-      left: 0;
+      top: 0; 
+      left: 0; 
       .link {
-        padding: 15px 0;
+        padding: 15px 0; 
         color: #fff;
       }
     }
