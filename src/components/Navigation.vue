@@ -247,17 +247,17 @@
       width: auto;
     } 
     .mobile-nav {
-      padding: 20px;
+      padding: 20px;  
       width: 70%;
       max-width: 250px;
       display: flex;
-      flex-direction: column; 
+      flex-direction: column;   
       position: fixed; 
       height: 100%;
       background-color: #303030;
       top: 0; 
-      left: 0; 
-      .link {
+      left: 0;  
+       .link {
         padding: 15px 0; 
         color: #fff;
       }
