@@ -119,7 +119,7 @@
   </script>
   
   <style lang="scss" scoped>
-  header {
+    header {
     background-color: #fff;
     padding: 0 25px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -148,18 +148,17 @@
       }
       .nav-links {
         position: relative;
-        display: flex;
+        display: flex; 
         flex: 1;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: flex-end; 
         ul {
-          margin-right: 32px;
-          .link {
+          margin-right: 32px; 
             margin-right: 32px;
           }
-          .link:last-child {
+          .link:last-child { 
             margin-right: 0;
-          }
+          } 
         }
         .profile {
           position: relative;
@@ -279,5 +278,5 @@
     .mobile-nav-leave-to {
       transform: translateX(-250px);
     }
-  }
+  
   </style>
